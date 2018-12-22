@@ -1,2 +1,2 @@
 # svgt2png
-convert svg string to png or jpeg
+use batik to convert svg string to png or jpeg
