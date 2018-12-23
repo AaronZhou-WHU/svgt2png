@@ -1,0 +1,35 @@
+<component name="libraryTable">
+  <library name="batik-anim">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/batik-anim.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/batik-awt-util.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/batik-bridge.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/batik-codec.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/batik-css.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/batik-dom.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/batik-ext.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/batik-extension.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/batik-gui-util.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/batik-gvt.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/batik-parser.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/batik-rasterizer.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/batik-script.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/batik-squiggle.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/batik-svg-dom.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/batik-svggen.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/batik-svgpp.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/batik-transcoder.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/batik-util.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/batik-xml.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-io-1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gson-1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/log4j-1.2.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/rhino-1.7R2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/slf4j-api-1.6.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/slf4j-log4j12-1.6.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/xml-apis-ext.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

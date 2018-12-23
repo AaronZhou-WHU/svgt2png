@@ -1,0 +1,927 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f49c7d00-c0cd-4e61-9cb4-dd3a414ee8ce" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/asclient_v2.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/commons-logging-1.0.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/dom4j-1.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/log4j-1.2.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/ojdbc14.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/ojdbc6-12.1.0.1-atlassian-hosted.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/standard-component-2.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/CapitalinfoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/limited/talent/StartApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/leveltwo/controller/BlockPostController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/leveltwo/controller/BlockRecieveController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/leveltwo/controller/IndexPostController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/leveltwo/controller/IndexReceiveController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/leveltwo/controller/IndividualStockPostController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/leveltwo/controller/IndividualStockRecieveController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/leveltwo/dao/ExchangeDateMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/leveltwo/dao/MoneyFlowMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/leveltwo/dao/MoneyNetFlowMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/leveltwo/dao/MoneyNetFlowMonthMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/leveltwo/dao/MoneyNetFlowWeekMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/leveltwo/dao/StkNewestQotInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/leveltwo/level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/leveltwo/models/ExchangeDate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/leveltwo/models/MoneyFlow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/leveltwo/models/MoneyNetFlow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/leveltwo/models/MoneyNetFlowMonth.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/leveltwo/models/MoneyNetFlowWeek.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/leveltwo/models/StkNewestQotInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/leveltwo/services/Block.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/leveltwo/services/Index.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/leveltwo/services/IndividualStock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/leveltwo/utils/DBUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/leveltwo/utils/DesFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/leveltwo/utils/HttpClientUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/leveltwo/utils/MD5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/leveltwo/utils/TableUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/leveltwo/utils/TimeUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/leveltwo/utils/ToolConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/leveltwo/utils/UrlUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/northmoney/NorthMoneyStart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/northmoney/conf/AsyncConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/northmoney/conf/BanKuaiOracleConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/northmoney/conf/MongoConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/northmoney/conf/OracleConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/northmoney/controller/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/northmoney/controller/NorthMoneyController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/northmoney/controller/StartController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/northmoney/entity/HSGTMoneyEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/northmoney/entity/NorthMoneyEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/northmoney/entity/VerifyEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/northmoney/service/DBInsertService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/northmoney/service/FileUploadService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/northmoney/service/HSGTMoneyFlowService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/northmoney/service/HoldDataService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/northmoney/service/MyScheduledService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/northmoney/service/NorthMoneyService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/northmoney/service/TransDataService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/northmoney/service/TransDataService2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/northmoney/service/VerifyService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/northmoney/service/fileupload/FileMd5Util.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/northmoney/service/fileupload/Snippet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/northmoney/service/fileupload/UploadDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/northmoney/service/fileupload/UploadFileResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/northmoney/service/fileupload/UploadListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/northmoney/util/Constant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/northmoney/util/DBUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/northmoney/util/DESUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/northmoney/util/JFreeChartUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/northmoney/util/OracleUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/northmoney/util/SVG2PNGUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/limited/talent/util/SVG2PNGUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Configure.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/asclient.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/ExchangeDateMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/MoneyFlowMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/MoneyNetFlowMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/MoneyNetFlowMonthMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/MoneyNetFlowWeekMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/StkNewestQotInfo.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mongodb.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/oracle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-editable.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-table.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-table-zh-CN.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-table.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/exporting.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/highcharts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/jquery-1.8.3.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/level2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/offline-exporting.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/start.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/start1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/startAll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/test1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cjsc/capitalinfo/CapitalinfoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cjsc/capitalinfo/MyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cjsc/capitalinfo/SVGPNGTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cjsc/capitalinfo/TT.java" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2430">
+              <caret line="135" column="18" selection-start-line="135" selection-start-column="18" selection-end-line="135" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="compiler.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Class" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>= &quot;&quot;</find>
+      <find>stmt</find>
+      <find>img3</find>
+      <find>createElement</find>
+      <find>\n</find>
+      <find>执行</find>
+      <find>hh</find>
+      <find>clippath</find>
+      <find>发起审核</find>
+      <find>content</find>
+      <find>以下是最近一月的北上资金趋势示意图</find>
+      <find>svg</find>
+      <find>java接受svg3</find>
+      <find>batik-svg-dom</find>
+      <find>lineargradient</find>
+      <find>writing-mode=tb-rl</find>
+      <find>GBK</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/northmoney/controller</dir>
+      <dir>$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/leveltwo</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$/Downloads/JetbrainsPatchKeygen" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/northmoney/highcharts/one2team/highcharts/server/JSMLegend.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/northmoney/highcharts/one2team/highcharts/server/JSMTooltip.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/northmoney/highcharts/one2team/highcharts/server/dynamic/JSMPoint.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/northmoney/highcharts/one2team/highcharts/server/JSMHighchartsFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/northmoney/highcharts/one2team/highcharts/server/JSMCenterSerializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/northmoney/highcharts/one2team/highcharts/shared/dynamic/Chart.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/northmoney/highcharts/one2team/highcharts/server/export/RendererFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/northmoney/highcharts/one2team/highcharts/server/dynamic/JSMChart.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/northmoney/highcharts/one2team/highcharts/server/JSMStyle.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/cjsc/capitalinfo/EchartTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/northmoney/highcharts/one2team/highcharts/server/export/util/SVGRendererInternal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/northmoney/highcharts/examples/SamplesFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/northmoney/highcharts/examples/SimpleExport.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/northmoney/highcharts/HighChartFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/northmoney/highcharts/one2team/highcharts/server/JSMDateTimeLabelFormats.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/northmoney/service/SVGProducerService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/northmoney/entity/NorthMoneyEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/test1.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/test.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/northmoney/service/HoldDataService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/northmoney/controller/ImageCreateController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/northmoney/service/ImageProduceService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/northmoney/service/TransDataService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/northmoney/service/HSGTMoneyFlowService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/northmoney/controller/NorthMoneyController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/cjsc/capitalinfo/MyTest.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/hehe.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/xx.html" />
+        <option value="$PROJECT_DIR$/src/test/java/com/cjsc/capitalinfo/SVGPNGTest.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/startAll.js" />
+        <option value="$PROJECT_DIR$/src/test/java/com/cjsc/capitalinfo/TT.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/northmoney/controller/StartController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/northmoney/util/SVG2PNGUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/northmoney/service/FileUploadService.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/leveltwo.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/northmoney/NorthMoneyStart.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/table.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/leveltwo/level.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/CapitalinfoApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/northmoney/service/DBInsertService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/leveltwo/dao/ExchangeDateMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/leveltwo/utils/HttpClientUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/leveltwo/controller/IndexPostController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/test.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/leveltwo/controller/BlockPostController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/level2.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/limited/talent/util/SVG2PNGUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/limited/talent/StartApplication.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="svgtopng" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="svgtopng" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="773" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="svgtopng" type="b2602c69:ProjectViewProjectNode" />
+              <item name="svgtopng" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="svgtopng" type="b2602c69:ProjectViewProjectNode" />
+              <item name="svgtopng" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="svgtopng" type="58d84e3e:PackageViewProjectNode" />
+              <item name="capitalinfo" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="svgtopng" type="58d84e3e:PackageViewProjectNode" />
+              <item name="capitalinfo" type="616d4139:PackageViewModuleNode" />
+              <item name="com.limited.talent" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/aaron/cjsc/WorkSpaces/capitalinfo/src/main/webapp/js/test.js" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.3428309" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/css" />
+      <recent name="$PROJECT_DIR$/driver/mac" />
+      <recent name="$PROJECT_DIR$/driver/linux" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/js" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cjsc.capitalinfo.northmoney.highcharts" />
+      <recent name="com.cjsc.capitalinfo.northmoney.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/leveltwo/services" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/leveltwo/utils" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/cjsc/capitalinfo/leveltwo/controller" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/lib" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Maven.capitalinfo [package]">
+    <configuration name="SVGPNGTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cjsc.capitalinfo.SVGPNGTest" />
+      <module name="svgtopng" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cjsc.capitalinfo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="TT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cjsc.capitalinfo.TT" />
+      <module name="svgtopng" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cjsc.capitalinfo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="MyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="svgtopng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cjsc.capitalinfo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.cjsc.capitalinfo" />
+      <option name="MAIN_CLASS_NAME" value="com.cjsc.capitalinfo.MyTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="MyTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="svgtopng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cjsc.capitalinfo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.cjsc.capitalinfo" />
+      <option name="MAIN_CLASS_NAME" value="com.cjsc.capitalinfo.MyTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="MyTest.testSVG" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="svgtopng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cjsc.capitalinfo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.cjsc.capitalinfo" />
+      <option name="MAIN_CLASS_NAME" value="com.cjsc.capitalinfo.MyTest" />
+      <option name="METHOD_NAME" value="testSVG" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="capitalinfo [package]" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="package" />
+                <option value="-Dmaven.test.skip=true" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
+    <configuration name="StartApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="svgtopng" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.limited.talent.StartApplication" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="Maven.capitalinfo [package]" />
+      <item itemvalue="Spring Boot.StartApplication" />
+      <item itemvalue="JUnit.MyTest" />
+      <item itemvalue="JUnit.MyTest.testSVG" />
+      <item itemvalue="JUnit.MyTest.test" />
+      <item itemvalue="Application.TT" />
+      <item itemvalue="Application.SVGPNGTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TT" />
+        <item itemvalue="Application.SVGPNGTest" />
+        <item itemvalue="JUnit.MyTest" />
+        <item itemvalue="JUnit.MyTest.test" />
+        <item itemvalue="JUnit.MyTest.testSVG" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f49c7d00-c0cd-4e61-9cb4-dd3a414ee8ce" name="Default" comment="" />
+      <created>1542855880659</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1542855880659</updated>
+      <workItem from="1542855882457" duration="194000" />
+      <workItem from="1542856105008" duration="568000" />
+      <workItem from="1542938747634" duration="7136000" />
+      <workItem from="1543042078994" duration="484000" />
+      <workItem from="1543194476606" duration="316000" />
+      <workItem from="1543211747511" duration="3084000" />
+      <workItem from="1543224108595" duration="132000" />
+      <workItem from="1543278844888" duration="4801000" />
+      <workItem from="1543295839771" duration="2900000" />
+      <workItem from="1543365932780" duration="10952000" />
+      <workItem from="1543452749661" duration="15436000" />
+      <workItem from="1543538640668" duration="6005000" />
+      <workItem from="1543554715446" duration="825000" />
+      <workItem from="1543797891186" duration="165000" />
+      <workItem from="1543799592820" duration="433000" />
+      <workItem from="1543902894273" duration="451000" />
+      <workItem from="1543994456920" duration="407000" />
+      <workItem from="1544058199659" duration="549000" />
+      <workItem from="1544145475206" duration="154000" />
+      <workItem from="1544170094997" duration="378000" />
+      <workItem from="1544172351884" duration="559000" />
+      <workItem from="1544173533437" duration="646000" />
+      <workItem from="1544238439073" duration="340000" />
+      <workItem from="1544402695793" duration="8952000" />
+      <workItem from="1544488507082" duration="17389000" />
+      <workItem from="1544575198303" duration="16673000" />
+      <workItem from="1544661910837" duration="17169000" />
+      <workItem from="1544748159227" duration="5044000" />
+      <workItem from="1544753909137" duration="541000" />
+      <workItem from="1544754485440" duration="25342000" />
+      <workItem from="1545008806171" duration="7595000" />
+      <workItem from="1545023817520" duration="14257000" />
+      <workItem from="1545093278393" duration="4520000" />
+      <workItem from="1545101626740" duration="1371000" />
+      <workItem from="1545115321075" duration="10441000" />
+      <workItem from="1545130110191" duration="4099000" />
+      <workItem from="1545179712803" duration="5442000" />
+      <workItem from="1545185611011" duration="11106000" />
+      <workItem from="1545204552162" duration="379000" />
+      <workItem from="1545206589434" duration="4102000" />
+      <workItem from="1545215997023" duration="227000" />
+      <workItem from="1545265956853" duration="7666000" />
+      <workItem from="1545283498222" duration="16727000" />
+      <workItem from="1545352389267" duration="3605000" />
+      <workItem from="1545356565640" duration="5283000" />
+      <workItem from="1545369008359" duration="10195000" />
+      <workItem from="1545447739562" duration="2932000" />
+      <workItem from="1545456140893" duration="8835000" />
+      <workItem from="1545471944348" duration="2232000" />
+      <workItem from="1545490613046" duration="348000" />
+      <workItem from="1545491040303" duration="168000" />
+      <workItem from="1545491212485" duration="84000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="MyTest_testHtml - 2018.12.19 at 13h 30m 14s.xml">
+      <configuration name="MyTest.testHtml" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyTest_testHtml - 2018.12.19 at 13h 38m 30s.xml">
+      <configuration name="MyTest.testHtml" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyTest - 2018.12.20 at 18h 26m 23s.xml">
+      <configuration name="MyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyTest - 2018.12.20 at 18h 32m 17s.xml">
+      <configuration name="MyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyTest - 2018.12.20 at 18h 35m 21s.xml">
+      <configuration name="MyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyTest_testSVG - 2018.12.20 at 18h 36m 59s.xml">
+      <configuration name="MyTest.testSVG" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyTest_test - 2018.12.20 at 19h 03m 57s.xml">
+      <configuration name="MyTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyTest_test - 2018.12.20 at 19h 05m 02s.xml">
+      <configuration name="MyTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyTest_test - 2018.12.20 at 19h 08m 57s.xml">
+      <configuration name="MyTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyTest - 2018.12.21 at 09h 03m 05s.xml">
+      <configuration name="MyTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="269639000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1280" height="773" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32988167" />
+      <window_info anchor="right" id="Maven Projects" order="10" weight="0.32956383" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39940828" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32988167" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32988167" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Run Dashboard" order="14" weight="0.32988167" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.6642012" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32988167" />
+      <window_info anchor="bottom" id="Spring" order="12" weight="0.32988167" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32988167" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30775446" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info anchor="right" id="SciView" order="6" weight="0.32956383" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32988167" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32988167" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Spring" order="12" weight="0.32988167" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.6642012" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32988167" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32988167" />
+      <window_info active="true" anchor="bottom" id="Messages" order="8" visible="true" weight="0.32988167" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32988167" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32988167" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32988167" />
+      <window_info anchor="right" id="Maven Projects" order="10" weight="0.32956383" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29321486" />
+      <window_info anchor="right" id="SciView" order="6" weight="0.32956383" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32988167" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39940828" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="16" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/limited/talent/northmoney/controller/NorthMoneyController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/leveltwo.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/limited/talent/util/DBUtil.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/bootstrap-table.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/limited/talent/northmoney/entity/HSGTMoneyEntity.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/limited/talent/northmoney/entity/NorthMoneyEntity.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/limited/talent/leveltwo/level.txt" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/MoneyFlowMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Configure.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/limited/talent/leveltwo/controller/IndexReceiveController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/limited/talent/leveltwo/controller/IndividualStockPostController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/limited/talent/leveltwo/controller/IndividualStockRecieveController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/limited/talent/northmoney/service/DBInsertService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/limited/talent/leveltwo/dao/ExchangeDateMapper.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/limited/talent/leveltwo/dao/MoneyFlowMapper.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/limited/talent/leveltwo/dao/MoneyNetFlowMapper.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/limited/talent/leveltwo/dao/MoneyNetFlowMonthMapper.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/limited/talent/leveltwo/dao/MoneyNetFlowWeekMapper.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/limited/talent/leveltwo/dao/StkNewestQotInfoMapper.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/limited/talent/leveltwo/models/ExchangeDate.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/limited/talent/leveltwo/models/MoneyFlow.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/limited/talent/leveltwo/models/MoneyNetFlow.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/limited/talent/leveltwo/models/MoneyNetFlowMonth.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/limited/talent/leveltwo/models/MoneyNetFlowWeek.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/limited/talent/leveltwo/models/StkNewestQotInfo.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/limited/talent/leveltwo/services/Index.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/limited/talent/leveltwo/services/IndividualStock.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/limited/talent/leveltwo/utils/DBUtil.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/limited/talent/leveltwo/utils/DesFile.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/limited/talent/leveltwo/utils/HttpClientUtil.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/limited/talent/leveltwo/utils/MD5.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/limited/talent/leveltwo/utils/TableUtil.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/limited/talent/leveltwo/utils/TimeUtil.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/limited/talent/leveltwo/utils/UrlUtils.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/limited/talent/leveltwo/controller/IndexPostController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/test.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/startAll.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/limited/talent/leveltwo/utils/ToolConfig.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/limited/talent/leveltwo/controller/BlockRecieveController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/limited/talent/leveltwo/services/Block.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/level2.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/limited/talent/leveltwo/controller/BlockPostController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/limited/talent/northmoney/NorthMoneyStart.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/limited/talent/util/SVG2PNGUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/limited/talent/StartApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="68" selection-start-line="3" selection-start-column="68" selection-end-line="3" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svgtopng.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="43" column="12" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2430">
+          <caret line="135" column="18" selection-start-line="135" selection-start-column="18" selection-end-line="135" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3428309" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3428309" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3428309" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3428309" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>svgtopng</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3428309" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3428309" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="" />
+  </component>
+</project>

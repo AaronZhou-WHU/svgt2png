@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/limited/talent/leveltwo/controller/BlockPostController.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/limited/talent/leveltwo/dao/ExchangeDateMapper.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/limited/talent/leveltwo/services/Block.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/limited/talent/leveltwo/services/Index.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/limited/talent/leveltwo/services/IndividualStock.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/limited/talent/leveltwo/utils/TableUtil.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/limited/talent/leveltwo/utils/TimeUtil.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/limited/talent/leveltwo/utils/ToolConfig.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/limited/talent/leveltwo/utils/UrlUtils.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/limited/talent/northmoney/service/FileUploadService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/limited/talent/northmoney/service/fileupload/UploadDemo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/limited/talent/northmoney/service/fileupload/UploadFileResult.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/limited/talent/util/Constant.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/limited/talent/util/DBUtil.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/limited/talent/util/DESUtil.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/limited/talent/util/OracleUtil.java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
